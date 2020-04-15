@@ -1,0 +1,12 @@
+{
+  "name": "pitfall.js",
+  "version": "0.0.1",
+  "description": "Lightweight and Highly-Modular library of mostly random helper functions and methods to remove some of the gratuity of JavaScript.",
+  "main": "./core/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["general purpose", "array", "object", "loops"],
+  "author": "canarado",
+  "license": "MIT"
+}
