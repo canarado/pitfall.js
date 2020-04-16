@@ -1,3 +1,4 @@
 module.exports = {
-    random: require('../random')
+    random: require('../random'),
+    forEachValue: require('../forEachValue')
 }

@@ -1,7 +1,6 @@
 /**
  * Get a random index/property from an array or object.
  * @param {(Array<*>|Object)} collection Array to obtain random index or Object to obtain random property.
- * @throws {TypeError} If collection is not an array or object.
  */
 module.exports = function random(collection) {
     if(Array.isArray(collection)) {

@@ -1,3 +1,4 @@
 module.exports = {
-    range: require('../range')
+    range: require('../range'),
+    forEachValue: require('../forEachValue')
 }

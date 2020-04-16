@@ -1,4 +1,6 @@
 module.exports = {
     range: require('../range'),
-    random: require('../random')
+    random: require('../random'),
+    sleep: require('../sleep'),
+    forEachValue: require('../forEachValue')
 }
