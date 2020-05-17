@@ -1,6 +1,11 @@
 /**
  * Get a random index/property from an array or object.
  * @param {(Array<*>|Object)} collection Array to obtain random index or Object to obtain random property.
+ * @returns {*}
+ * @example
+ * let obj = { a: 1, b: 2 };
+ * 
+ * random(obj);
  */
 module.exports = function random(collection) {
     if(Array.isArray(collection)) {
