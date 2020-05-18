@@ -66,7 +66,8 @@
 
 
     <section class="readme">
-        <article><p><img src="https://imgur.com/eqMsOvi.png" alt="pitfall.js logo"></p>
+        <article><br />
+![pitfall.js logo](https://imgur.com/eqMsOvi.png)
 <p>Lightweight and Highly-Modular library of mostly random helper functions and methods to remove some of the gratuitousness of JavaScript.</p>
 <ul>
 <li><strong>Lightweight</strong> - pitfall tries to have a minimal footprint on your system, to avoid the fated 1gb node_modules folder.</li>
@@ -78,7 +79,42 @@
 <p>Yarn: <code>yarn install pitfall.js</code></p>
 <p>pitfall.js is not yet ready for a browser environment, but when it is, it will be available as a standalone js file or from a CDN.</p>
 <h2>Documentation</h2>
-<p>pitfall.js does not yet have any <em>real</em> documentation, but it is coming if the library gets enough use.</p></article>
+<p>Documentation is available <a href="https://canarado.github.io/pitfall.js/">here</a>;</p>
+<h2>Basic Usage</h2>
+<p>This library is meant to be highly modular and we mean it!</p>
+<pre class="prettyprint source lang-js"><code>// Let's require the entire library!
+const pitfall = require('pitfall.js/core');
+// We could also just use 'require('pitfall.js')' but we are going to be concise for the sake of this example
+
+// Now we can use apis from the entire library such as the sleep function
+pitfall.sleep(2000);
+
+// ..
+</code></pre>
+<blockquote>
+<p>Well, canarado, I don't want to include the entire library! Can I use something more modular?</p>
+</blockquote>
+<p>Yes :), you can import a small subsection of the library!</p>
+<pre class="prettyprint source lang-js"><code>// Let us require pitfall's utils!
+const pitfallUtils = require('pitfall.js/util');
+
+// The util sublib can be used for utility function, such as the promise-based sleep function!
+pitfallUtils.sleep(2000);
+</code></pre>
+<blockquote>
+<p>Hmmm...that still isn't modular enough for me, is there another option?</p>
+</blockquote>
+<p>Absolutely! Let's cherry-pick one singular tiny function!</p>
+<pre class="prettyprint source lang-js"><code>// Wow! Importing a single function is this easy!
+const sleep = require('pitfall/sleep');
+
+sleep(2000);
+
+// Theoretically, you could also import sleep singularly like this
+// but this leads to longer runtimes and above is arguably more readable.
+// The more 'pitfall-style' will be modular imports like above ^
+const sleep = require('pitfall').sleep;
+</code></pre></article>
     </section>
 
 
