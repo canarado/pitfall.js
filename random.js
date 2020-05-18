@@ -1,5 +1,8 @@
+/** @module */
+
 /**
  * Get a random index/property from an array or object.
+ * @function
  * @param {(Array<*>|Object)} collection Array to obtain random index or Object to obtain random property.
  * @returns {*}
  * @example

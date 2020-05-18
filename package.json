@@ -4,10 +4,21 @@
   "description": "Lightweight and Highly-Modular library of mostly random helper functions and methods to remove some of the gratuity of JavaScript.",
   "main": "./core/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -c ./conf.json --verbose"
   },
-  "keywords": ["general purpose", "array", "object", "loops", "helper", "core"],
+  "keywords": [
+    "general purpose",
+    "array",
+    "object",
+    "loops",
+    "helper",
+    "core"
+  ],
   "author": "canarado",
   "license": "MIT",
-  "homepage": "https://github.com/canarado/pitfall.js"
+  "homepage": "https://github.com/canarado/pitfall.js",
+  "dependencies": {
+    "clean-jsdoc-theme": "^2.2.11"
+  }
 }

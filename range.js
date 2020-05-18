@@ -1,5 +1,8 @@
+/** @module */
+
 /**
  * An abstraction over classic loops to do something n times.
+ * @function
  * @param {number} end End of the range, loop will run end(n) times.
  * @param {function} callback Function to be invoked every loop.
  * @returns {void} None

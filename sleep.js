@@ -1,5 +1,8 @@
+/** @module */
+
 /**
  * Pause a current function's execution without stopping up the entire event loop. Similiar to a setTimeout, but more inline.
+ * @function
  * @param {number} ms amount of time in milliseconds that the function should pause execution.
  * @returns {Promise} awaited until the timer runs out.
  * @example

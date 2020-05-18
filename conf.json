@@ -1,0 +1,30 @@
+{
+    "source": {
+        "include": ["package.json", "README.md", "./"],
+        "exclude": ["node_modules", "docs", "assets"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+
+    "plugins": [
+        "plugins/markdown"
+    ],
+
+    "opts": {
+        "encoding": "utf8",
+        "readme": "./README.md",
+        "destination": "./docs/",
+        "recurse": true,
+        "verbose": true,
+        "template": "./node_modules/clean-jsdoc-theme"
+    },
+    "theme_opts": {
+        "title": "pitfall.js",
+        "filter": false,
+        "search": false,
+        "meta": [
+            "<meta name=\"author\" content=\"canarado\">",
+            "<meta name=\"description\" content=\"pitfalls.js - a higly modular node.js library\""
+        ]
+    }
+}

@@ -1,5 +1,8 @@
+/** @module */
+
 /**
  * Function to abstract looping over objects.
+ * @function
  * @param {Object} object The object to loop over.
  * @param {function} callback The callback function that is called every iteration of the object. Called with (object.value, object.key).
  * @example

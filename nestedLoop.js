@@ -1,5 +1,8 @@
+/** @module */
+
 /**
  * Shortcut to writing nested loops. Works with both arrays and objects.
+ * @function
  * @param {Array|Object} collection1 Array or Object to loop over
  * @param {Array|Object} collection2 Array or Object, this collection is looped over in its entirety every iteration of collection1
  * @param {function} callback callback function to be called per iteration of collection2, this function is ran n(collection1's length * collection2's length) times. Both collection indexes that are the current iteration are passed to this function.
