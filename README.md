@@ -24,11 +24,16 @@ This library is meant to be highly modular and we mean it!
 
 ```js
 // Let's require the entire library!
-const pitfall = require('pitfall.js/core');
 // We could also just use 'require('pitfall.js')' but we are going to be concise for the sake of this example
+const pitfall = require('pitfall.js/core');
 
 // Now we can use apis from the entire library such as the sleep function
 pitfall.sleep(2000);
+
+// or the random function :)
+let array = [1, 2, 3, 4, 5];
+
+let randomValue = pitfall.random(array);
 
 // ..
 ```
