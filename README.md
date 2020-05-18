@@ -1,4 +1,3 @@
-<br />
 ![pitfall.js logo](https://imgur.com/eqMsOvi.png)
 
 Lightweight and Highly-Modular library of mostly random helper functions and methods to remove some of the gratuitousness of JavaScript.
