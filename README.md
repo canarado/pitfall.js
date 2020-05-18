@@ -49,12 +49,12 @@ pitfallUtils.sleep(2000);
 Absolutely! Let's cherry-pick one singular tiny function!
 ```js
 // Wow! Importing a single function is this easy!
-const sleep = require('pitfall/sleep');
+const sleep = require('pitfall.js/sleep');
 
 sleep(2000);
 
 // Theoretically, you could also import sleep singularly like this
 // but this leads to longer runtimes and above is arguably more readable.
 // The more 'pitfall-style' will be modular imports like above ^
-const sleep = require('pitfall').sleep;
+const sleep = require('pitfall.js').sleep;
 ```
