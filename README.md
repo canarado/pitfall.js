@@ -16,7 +16,7 @@ pitfall.js is not yet ready for a browser environment, but when it is, it will b
 
 ## Documentation
 
-Documentation is available [here](https://canarado.github.io/pitfall.js/);
+Documentation is available [here](https://canarado.github.io/pitfall.js/).
 
 ## Basic Usage
 
