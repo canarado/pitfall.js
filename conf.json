@@ -1,7 +1,7 @@
 {
     "source": {
         "include": ["package.json", "README.md", "./"],
-        "exclude": ["node_modules", "docs", "assets"],
+        "exclude": ["node_modules", "docs", "assets", "set-docs.js"],
         "includePattern": ".js$",
         "excludePattern": "(node_modules/|docs)"
     },
